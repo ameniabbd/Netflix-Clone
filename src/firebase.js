@@ -5,13 +5,20 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrN0AOrLLWn2-hHdC_2hr9OMthP1x0wbE",
-  authDomain: "coworky-7b28a.firebaseapp.com",
-  databaseURL: "https://coworky-7b28a.firebaseio.com",
-  projectId: "coworky-7b28a",
-  storageBucket: "coworky-7b28a.appspot.com",
-  messagingSenderId: "1074645361606",
-  appId: "1:1074645361606:web:ae6d1ab55e40f730f788c7",
+  apiKey: "AIzaSyCDUVSvheQMYiGIPoTR8MXdtnUNDbJ4YPI",
+
+  authDomain: "facebook-messenger-clone-bdb58.firebaseapp.com",
+
+  projectId: "facebook-messenger-clone-bdb58",
+
+  storageBucket: "facebook-messenger-clone-bdb58.appspot.com",
+
+  messagingSenderId: "524812685672",
+
+  appId: "1:524812685672:web:46b1090bac5cbef8c206dd",
+
+  measurementId: "G-PX6LGYXHY2"
+
 };
 
 // Use this to initialize the firebase App
