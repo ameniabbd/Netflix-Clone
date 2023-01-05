@@ -1,8 +1,6 @@
-
-
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDrN0AOrLLWn2-hHdC_2hr9OMthP1x0wbE",
@@ -11,8 +9,8 @@ const firebaseConfig = {
   projectId: "coworky-7b28a",
   storageBucket: "coworky-7b28a.appspot.com",
   messagingSenderId: "1074645361606",
-  appId: "1:1074645361606:web:ae6d1ab55e40f730f788c7"
-}
+  appId: "1:1074645361606:web:ae6d1ab55e40f730f788c7",
+};
 // Use this to initialize the firebase App
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
